@@ -21,7 +21,7 @@ export class App {
     this.api.getAllMovies().subscribe(
       data => {
         console.log(data);
-        //this.movies = data
+        this.movies = data
       },
       error => {
         console.log(error);
